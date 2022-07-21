@@ -76,3 +76,4 @@
 
 - Created a new clean repository (current)
 - benchmark on deploying options
+- test gif WIP
