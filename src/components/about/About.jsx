@@ -28,7 +28,7 @@ export default function About() {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>Pas beaucoup...</small>
+              <small>Vous peut-etre ?</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -37,10 +37,10 @@ export default function About() {
             </article>
           </div>
           <p>
-            Missos purgaverint visa percontatum paucis remedium adminiculum
-            oculis corpus ad labes ad est est purgaverint valeant perferentem
-            quos missos aliud torpescit domum amicum aegritudine metuitur videat
-            excogitatum eos famulos noti.
+            Voici mon portfolio, crée à l'issue de ma formation de 5 mois avec
+            l'école O'Clock. J'ai pu apprendre lors de cette formation plusieurs
+            langages, tels que PHP, JS, et surtout React, qui m'a permis de
+            créer ce portfolio. Mon profil vous intéresse ? Cliquez juste là !
           </p>
           <a href="#contact" className="btn btn-primary">
             On en discute ?

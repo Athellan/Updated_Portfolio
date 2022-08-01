@@ -8,29 +8,25 @@ const data = [
     id: 1,
     avatar: AVTR1,
     name: "Raphaël Aldaz",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nobis",
+    review: "C'était un bon camarade !",
   },
   {
     id: 2,
     avatar: AVTR2,
     name: "Julien Pernot",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nobis",
+    review: "Quand il est content il commit",
   },
   {
     id: 3,
     avatar: AVTR3,
     name: "Julien Denis",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nobis",
+    review: "Le dev C++ ce que c'était",
   },
   {
     id: 4,
     avatar: AVTR4,
     name: "Yanis de Lucas",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nobis",
+    review: "Un pro des querySelector...",
   },
 ];
 
