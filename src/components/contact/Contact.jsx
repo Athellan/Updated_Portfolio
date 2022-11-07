@@ -34,7 +34,7 @@ export default function Contact() {
   return (
     <section id="contact">
       <h5>Get in touch</h5>
-      <h2>Contact Me</h2>
+      <h2>Contactez moi</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -49,7 +49,7 @@ export default function Contact() {
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
-            <h5>jb cambillard</h5>
+            <h5>Jb Cambillard</h5>
             <a href="https://m.me/jb.cambillard/" target="_blank">
               Envoyez moi un message
             </a>
@@ -57,7 +57,7 @@ export default function Contact() {
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
-            <h5>+336 66 66 66 </h5>
+            <h5>+336 47 47 17 96</h5>
             <a href="https://wa.me/+33647471796" target="_blank">
               Envoyez moi un message
             </a>
