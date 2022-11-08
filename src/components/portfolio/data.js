@@ -30,7 +30,7 @@ const data = [
     className: "Image3",
     title: "Hackaton Speedrun",
     github: "https://github.com/Athellan/hackaton",
-    demo: "",
+    demo: "https://hackaton-six.vercel.app/",
   },
   {
     id: 4,

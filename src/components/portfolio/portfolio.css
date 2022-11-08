@@ -30,12 +30,10 @@
     overflow: hidden;
 }
 
-.Image1, .Image2, .Image3 {
+/* .Image1, .Image2, .Image3 {
     height: 300px;
     width: 420px;
-}
-
-
+} */
 
 
 .portfolio__item h3 {

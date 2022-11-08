@@ -1,3 +1,8 @@
+#about h5 {
+    color: transparent;
+    margin-bottom: 2rem;
+}
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -5,7 +10,7 @@
 }
 
 .about__me {
-    width: 100%;
+    width: 75%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -20,19 +25,18 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    /* transform: rotate(10deg); */
     transition: var(--transition);
-}
+} 
 
-.about__me-image:hover {
+/* /* .about__me-image:hover {
     transform: rotate(0);
-}
+} */
 
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    
 }
 
 .about__card {

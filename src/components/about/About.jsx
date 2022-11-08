@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import "./about.css";
-// import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/profile-pic.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -14,7 +14,7 @@ export default function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            {/* <img src={Model} alt="moi" /> */}
+            <img src={ME} alt="moi" />
           </div>
         </div>
 
@@ -37,10 +37,12 @@ export default function About() {
             </article>
           </div>
           <p>
-            Voici mon portfolio, crée à l'issue de ma formation de 5 mois avec
-            l'école O'Clock. J'ai pu apprendre lors de cette formation plusieurs
+            Voici mon portfolio, crée à la suite de ma formation à l'école
+            O'Clock. J'ai pu apprendre lors de cette formation plusieurs
             langages, tels que PHP, JS, et surtout React, qui m'a permis de
-            créer ce portfolio. Mon profil vous intéresse ? Cliquez juste là !
+            créer ce portfolio. J'ai pu également apprendre les bases du
+            développement IOS à l'Apple School. Mon profil vous intéresse ?
+            Cliquez juste là !
           </p>
           <a href="#contact" className="btn btn-primary">
             On en discute ?

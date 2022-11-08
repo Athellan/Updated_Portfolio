@@ -19,7 +19,7 @@ export default function Header() {
 
         <div className="me">
           <Canvas
-            camera={{ position: [2, 0, 12.25], fov: 15 }}
+            camera={{ position: [1, 1, 10], fov: 17 }}
             style={{
               backgroundColor: "transparent",
               width: "50vh",
@@ -30,7 +30,7 @@ export default function Header() {
             <ambientLight intensity={0.1} />
             <directionalLight intensity={0.4} />
             <Suspense fallback={null}>
-              <Model position={[-0.5, -0.5, 0.2]} />
+              <Model position={[-0.5, -0.4, 0.2]} />
             </Suspense>
             <OrbitControls />
           </Canvas>
