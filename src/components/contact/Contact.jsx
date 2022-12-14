@@ -78,7 +78,7 @@ export default function Contact() {
             name="email"
             placeholder="Votre email"
             required
-            pattern="^[a-zA-Z0-9_.+-]+@a\.\w+$"
+            pattern="^[a-zA-Z0-9.!#$%&’*+=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
           />
           <textarea
             name="message"
