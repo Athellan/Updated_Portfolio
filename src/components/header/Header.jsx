@@ -5,7 +5,9 @@ import "./header.css";
 import CTA from "./CTA";
 // import ME from "../../assets/me.png";
 import Model from "../../Model";
-import HeaderSocials from "./HeaderSocials";
+// import HeaderSocials from "./HeaderSocials";
+import { HiArrowRight } from "react-icons/hi";
+// import { FaBeer } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -15,7 +17,7 @@ export default function Header() {
         <h1>Jean-Baptiste Cambillard</h1>
         <h5 className="text-light">Frontend Developer</h5>
         <CTA />
-        <HeaderSocials />
+        {/* <HeaderSocials /> */}
 
         <div className="me">
           <Canvas
@@ -32,12 +34,12 @@ export default function Header() {
             <Suspense fallback={null}>
               <Model position={[-0.5, -0.4, 0.2]} />
             </Suspense>
-            <OrbitControls />
+            {/* <OrbitControls /> */}
           </Canvas>
         </div>
 
         <a href="#contact" className="scroll__down">
-          Aller en bas
+          <HiArrowRight size={20} />
         </a>
       </div>
     </header>

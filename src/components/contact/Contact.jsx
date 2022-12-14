@@ -68,14 +68,25 @@ export default function Contact() {
             type="text"
             name="name"
             placeholder="Votre nom complet"
+            pattern="^[A-Za-z][a-z]*( [A-Z][a-z]*)*$"
+            minlength="3"
+            maxlength="20"
             required
           />
-          <input type="email" name="email" placeholder="Votre email" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Votre email"
+            required
+            pattern="^[a-zA-Z0-9_.+-]+@a\.\w+$"
+          />
           <textarea
             name="message"
             id=""
             rows="7"
             placeholder="Votre message"
+            minlength="15"
+            maxlength="250"
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">

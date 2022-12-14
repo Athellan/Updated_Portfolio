@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 import "./about.css";
 import ME from "../../assets/profile-pic.png";
 import { FaAward } from "react-icons/fa";
@@ -20,21 +20,27 @@ export default function About() {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>Junior developer</small>
-            </article>
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>Vous peut-etre ?</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projets</h5>
-              <small>Mes réalisations</small>
-            </article>
+            <a href="#experience">
+              <article className="about__card">
+                <FaAward className="about__icon" />
+                <h5>Experience</h5>
+                <small>Junior developer</small>
+              </article>
+            </a>
+            <a href="#testimonials">
+              <article className="about__card">
+                <FiUsers className="about__icon" />
+                <h5>Clients</h5>
+                <small>Vous peut-etre ?</small>
+              </article>
+            </a>
+            <a href="#portfolio">
+              <article className="about__card">
+                <VscFolderLibrary className="about__icon" />
+                <h5>Projets</h5>
+                <small>Mes réalisations</small>
+              </article>
+            </a>
           </div>
           <p>
             Voici mon portfolio, crée à la suite de ma formation à l'école
@@ -42,7 +48,6 @@ export default function About() {
             langages, tels que PHP, JS, et surtout React, qui m'a permis de
             créer ce portfolio. J'ai pu également apprendre les bases du
             développement IOS à l'Apple School. Mon profil vous intéresse ?
-            Cliquez juste là !
           </p>
           <a href="#contact" className="btn btn-primary">
             On en discute ?
