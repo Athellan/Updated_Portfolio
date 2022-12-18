@@ -14,7 +14,7 @@ const data = [
     id: 2,
     avatar: AVTR2,
     name: "Julien Pernot",
-    review: "Quand il est content il commit",
+    review: "Quand il est content il commit bien",
   },
   {
     id: 3,
